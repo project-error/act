@@ -1,0 +1,20 @@
+{
+	"name": "@project-error/act",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsup index.ts --dts --minify --format esm,cjs --out-dir dist --external react"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/react": "^18.2.69",
+		"react": "^18.2.0",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.3"
+	}
+}
